@@ -1,0 +1,25 @@
+@media only screen and (min-width: 768px) {
+    #indexbar {
+        background-color: cadetblue;
+        padding: 16px;
+    }
+
+    .list {
+        padding: 20px;
+    }
+
+    .index {
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .image-wrapper {
+        text-align: center;
+    }
+}
