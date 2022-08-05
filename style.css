@@ -7,7 +7,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(195, 212, 209);
     padding: 100px 50px;
 }
 
@@ -15,8 +15,8 @@ html {
     display: grid;
     grid-template-columns: 100%;
     margin: auto, 0;
-    border-radius: 16px;
-    box-shadow: 10px;
+    border-radius: 50px;
+    box-shadow: 550px;
 }
 
 .head3 {
@@ -33,6 +33,7 @@ html {
 
 p {
     color: #808080;
+    
 }
 
 .head5 {
@@ -45,6 +46,12 @@ p {
 .incontent {
     font-size: 36px;
     color: white;
+}
+
+.endContent{
+    line-height: 20px;
+    font-size: small;
+    color: rgb(184, 185, 187);
 }
 
 .head2 {
@@ -67,13 +74,15 @@ p {
 
 button {
     text-align: center;
-    width: 30%;
+    width: 90%;
+    height: 22%;
     padding: 10px;
-    background-color: rgb(250, 202, 80);
+    background-color: rgb(207, 250, 80);
     color: white;
     display: block;
-    border-radius: 8px;
-    font-weight: 600;
+    border-radius: 4px;
+    font-weight:700;
+    border: hidden;
 }
 
 button:hover {
